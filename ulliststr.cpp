@@ -63,3 +63,23 @@ void ULListStr::clear()
   tail_ = NULL;
   size_ = 0;
 }
+
+void ULListStr::push_back(const std::string& val) {
+  // if empty
+  if 
+}
+
+
+
+  /** 
+   * Returns a pointer to the item at index, loc,
+   *  if loc is valid and NULL otherwise
+   *   - MUST RUN in O(n) 
+   */
+std::string* ULListStr::getValAtLoc(size_t loc) const {
+  if (head_==nullptr)
+    return nullptr;
+  for (int i=head->first; i<head->last; i++) {
+    if (head_->val[i]==)
+  }
+}
