@@ -27,6 +27,7 @@ class ULListStr {
       first = last = 0;
       prev = next = NULL;
     }
+
   };
 
   /**
